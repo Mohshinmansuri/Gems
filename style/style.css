@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Background CSS Starts */
+
+.background {
+    background: rgba(0, 0, 200, 0.5) url(../image/bg.webp);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Background CSS Ends */
+
+/* Navbar CSS Starts */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    height: 85px;
+    transition-duration: 0.25s;
+}
+
+.navbar img {
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 20%;
+    cursor: pointer;
+    margin: 10px 150px;
+    transition-duration: 0.25s;
+}
+
+.navbar img:hover {
+    height: 75px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0px 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition-duration: 0.25s;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 3px solid rgb(255, 83, 83);
+    padding: 5px;
+}
+
+
+/* Section 1 CSS Starts */
+
+.section-1 {
+    height: 700px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.section-1 h1 {
+    color: white;
+    font-size: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+.section-1 h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.section-1 p {
+    font-family: cursive;
+    color: white;
+}
+
+.section-1 a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+}
+
+.section-1 a:hover {
+    background: rgb(255, 57, 57);
+}
+
+/* Section 1 CSS Ends */
+
+/* Section 2 CSS Starts */
+
+.section-2 {
+    height: 500px;
+    text-align: center;
+    padding: 10%;
+}
+
+.section-2 h1 {
+    font-size: 35px;
+}
+
+.section-2 p {
+    color: #999;
+}
+
+.section-2 .article {
+    display: flex;
+    padding-top: 5%;
+}
+
+.article article {
+    background-color: rgb(245, 236, 236);
+    padding: 25px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(245, 236, 236),
+        0 0 15px rgb(245, 236, 236);
+}
+
+.article article h3 {
+    margin: 10px;
+}
+
+/* Section 2 CSS Ends */
+
+.br{
+    height: 0px;
+    width: 100%;
+    border: 1px solid grey;
+}
+
+/* Section 3 CSS Starts */
+
+.section-3 {
+    height: 500px;
+    text-align: center;
+    padding: 7%;
+    padding-bottom: 250px;
+}
+
+.section-3 h1 {
+    font-size: 35px;
+}
+
+.section-3 p {
+    color: #999;
+}
+
+.section-3 .article {
+    display: flex;
+    padding-top: 5%;
+}
+
+.section-3 .article article {
+    background-color: rgb(255, 254, 254);
+    padding: 25px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgb(245, 236, 236),
+        0 0 15px rgb(245, 236, 236);
+    }
+
+.section-3 .article article h3 {
+    margin: 10px;
+}
+
+.section-3 article img{
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/* Section 3 CSS Ends */
+
+/* Section 4 CSS Starts */
+
+.section-4{
+    height: 400px;
+    width: 70%;
+    margin:150px  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.6) url(../image/contact.avif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.section-4 h1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+.section-4 a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid grey;
+    transition-duration: 0.25s;
+    border-radius: 5px;
+}
+.section-4 a:hover{
+    background-color: rgb(255, 57,57);
+}
+
+/* Section 4 CSS Ends */
+
+footer{
+    text-align: center;
+    background-color:#ddd;
+    padding: 50px;
+}
+footer p{
+    color: #666;
+    font-family: cursive;
+    padding: 5px;
+}
+footer img{
+    height: 30px;
+    padding: 10px;
+}
