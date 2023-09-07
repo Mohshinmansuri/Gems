@@ -6,7 +6,6 @@
     .navbar img{
         width: 75px;
         margin: 10px auto;
-
     }
     .navbar ul{
         flex-direction: column;
@@ -23,8 +22,7 @@
     }
     .h-nev{
         height: 50px;
-        transition-duration: 1s;
-        
+        transition-duration: 0.5s;
     }
     .section-1 h1{
         font-size: 120px;
@@ -230,5 +228,9 @@
 @media (max-width:300px){
     .section-3{
         height: 1500px;
+    }
+    .section-3 article img{
+        margin: 0px;
+        height: 70px;
     }
 }
